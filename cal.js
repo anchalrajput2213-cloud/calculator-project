@@ -22,7 +22,7 @@ let button_DEL=buttons[1];
 button_DEL.addEventListener('click',()=>{
     current =current.slice(0,-1);
     expression = expression.slice(0,-1);
-    console.log('deleate one value->',current);
+    console.log('delete one value->',current);
     display.textContent = expression || "0";
 })
     
